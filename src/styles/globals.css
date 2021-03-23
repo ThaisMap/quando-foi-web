@@ -1,0 +1,31 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --paper: #fdfdfd;
+  --backgroud: #f0fffc;
+  --green-dark: #006e25;
+  --gray: #c4c4c4;
+  --gray-line: #aaa;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--backgroud);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}

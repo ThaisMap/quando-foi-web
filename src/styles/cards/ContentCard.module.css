@@ -1,0 +1,40 @@
+.icon {
+  flex: 1;
+}
+
+.content {
+  flex: 7;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--green-dark);
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+}
+
+.date {
+  margin: 0;
+  font-weight: 500;
+}
+
+.comment {
+  margin: 0;
+  font-weight: 300;
+}
+
+.iconButtons {
+  align-self: flex-start;
+}
+
+.editButton {
+  display: block;
+  padding: 0.5em;
+  background: transparent;
+  border: none;
+  color: var(--green-dark);
+}
